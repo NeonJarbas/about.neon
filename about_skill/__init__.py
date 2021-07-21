@@ -23,7 +23,3 @@ class AboutSkill(MycroftSkill):
         skills_list.sort()
         skills_to_speak = ", ".join(skills_list)
         self.speak_dialog("skills_list", data={"list": skills_to_speak})
-
-
-def create_skill():
-    return AboutSkill()
